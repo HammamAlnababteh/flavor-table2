@@ -1,0 +1,42 @@
+<!--public/rendomRecipes.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Recipes - Flavor Table</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Flavor Table</h1>
+      <ul>
+        <li><a href="index.html">Search Recipes</a></li>
+        <li><a href="randomRecipes.html">Random Recipes</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="#" id="logoutBtn" style="display:none">Logout</a></li>
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h2>Random Recipes</h2>
+      <p>Click the button below to get a random recipe.</p>
+      <button id="getRandomRecipe">Generate Random Recipe</button>
+    </section>
+
+    <section class="recipes-container" id="randomRecipeContainer">
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!--public/favorites.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Favorites - Flavor Table</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+
+    <nav>
+      <h1>Flavor Table</h1>
+      <ul>
+
+        <li><a href="index.html">Search Recipes</a></li>
+        <li><a href="randomRecipes.html">Random Recipe</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="#" id="logoutBtn" style="display:none">Logout</a></li>
+
+
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h2>Your Favorite Recipes</h2>
+      <p>Here are the recipes you've saved. You can remove or edit any of them.</p>
+    </section>
+
+    <section class="recipes-container" id="favoritesContainer">
+      <!-- Favorite recipes inserted dynamically -->
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flavor Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<h1>Flavor Table</h1>
+<ul>
+<li><a href="index.html">Search Recipes</a></li>
+<li><a href="randomRecipes.html">Random Recipes</a></li>
+<li><a href="favorites.html">Favorites</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="#" id="logoutBtn" style="display:none">Logout</a></li>
+
+
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="search-section">
+<h2>Search Recipes Ingredients</h2>
+<input type="text" id="ingredientInput" placeholder="e.g chicken, rice, tomato" />
+<button id="searchBtn">Search</button>
+</section>
+
+<section id="recipesContainer" class="recipes-container"></section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
